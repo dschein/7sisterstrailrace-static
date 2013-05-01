@@ -1,0 +1,40 @@
+body {
+  background-color: #9A0201;
+  background-image: linear-gradient(to bottom, #9A0201, #9A0201 5%, #FFFFFF);
+}
+h2.tophead {
+  color: #fff;
+}
+h4.tophead {
+  color: #ccc;
+}
+.tophead small {
+  color: #ccc;
+}
+table caption {
+  background-color: #ccc;
+  padding: .5em;
+}
+th.name,
+th.town,
+th.state {
+  text-align: left;
+}
+th.place,
+th.gender,
+th.age {
+  text-align: center;
+}
+th.time,
+th.gt {
+  text-align: right;
+}
+section#past_results div.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+iframe {
+  height: 600px;
+}
+

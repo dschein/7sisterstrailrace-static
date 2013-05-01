@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^7sisterstrailrace\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.7sisterstrailrace\.com$
+RewriteRule ^index\.php$ "http\:\/\/7sisterstrailrace\.com\/?" [R=301,L]
+

@@ -1,0 +1,5 @@
+Options +Indexes 
+IndexIgnore ..
+IndexOptions +SuppressLastModified +SuppressSize +SuppressHTMLPreamble +SuppressDescription +SuppressRules +FancyIndexing
+HeaderName HEADER.html
+ReadmeName README.html
