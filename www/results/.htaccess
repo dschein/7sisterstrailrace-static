@@ -1,5 +1,5 @@
 Options +Indexes 
-IndexIgnore ..
+IndexIgnore .. *pdf
 IndexOptions +SuppressLastModified +SuppressSize +SuppressHTMLPreamble +SuppressDescription +SuppressRules +FancyIndexing
 HeaderName HEADER.html
 ReadmeName README.html
