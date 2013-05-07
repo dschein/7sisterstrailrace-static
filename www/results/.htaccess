@@ -1,4 +1,5 @@
-Options +Indexes 
+AddType application/octet-stream .pdf
+Options +Indexes
 IndexIgnore .. *pdf
 IndexOptions +SuppressLastModified +SuppressSize +SuppressHTMLPreamble +SuppressDescription +SuppressRules +FancyIndexing
 HeaderName HEADER.html
